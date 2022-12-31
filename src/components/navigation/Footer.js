@@ -2,7 +2,7 @@ export default function Footer() {
   return(
     <div>
       <footer className="footer">
-        <h6>Made by yours truly, Cristal.</h6>
+        <h5>Made by yours truly, Crystolivia.</h5>
       </footer>
     </div>
   )

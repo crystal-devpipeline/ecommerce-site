@@ -21,7 +21,7 @@ export default function Cart({children}) {
     }
 
     return (
-        <div>
+        <div className="cart-container">
           <h1>Your Cart</h1>
           <div>{renderCart()}</div>
           <div>

@@ -32,9 +32,11 @@ export default function Products() {
     })
 
     return (
-        <div>
-            <h1>Products</h1>
-            {renderProducts}
+        <div className="products-container">
+            {/* <h1>Products</h1> */}
+            <div className="products">
+                {renderProducts}
+            </div>
         </div>
     )
 }

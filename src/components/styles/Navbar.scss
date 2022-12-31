@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  background-color: rgb(193, 247, 247);
+  color:aquamarine;
+  position: sticky;
+  top: 0px;
+  
+  a{
+    display: flex;
+    color: rgb(10, 49, 49);
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+ 
+  }
+  a:hover {
+    background-color: rgb(230, 251, 251);
+    color: rgb(0, 53, 53);
+    border-radius: 10px;
+  }
+}
+
