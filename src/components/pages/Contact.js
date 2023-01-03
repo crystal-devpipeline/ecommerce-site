@@ -1,5 +1,3 @@
-//TODO: httpbin ?
-
 export default function Contact() {
  function handleSubmit(){
     alert("sent!")
