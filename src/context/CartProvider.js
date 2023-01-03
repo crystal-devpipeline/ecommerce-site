@@ -9,10 +9,14 @@ export default function CartProvider({ children }) {
     setCart((c) => [...c, product]);
   }
 
+  function clearCart(){
+    setCart([]);
+  }
 
   const cartState = {
     cart,
     addProduct,
+    clearCart,
   };
 
   return (

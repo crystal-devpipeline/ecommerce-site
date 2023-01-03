@@ -1,17 +1,14 @@
-import coverImage from '../../images/cover-image.jpg';
+import coverImage from '../../images/clothing.jpg';
 
 export default function Home() {
     return (
-        <div className="home-container">
-            <div>
-                <h1>hello from home</h1>
-            </div>
-                
-            <div>
+        <div className="hero-container">
+            <h1>Welcome to Crystolivia!</h1>
+            <div className="hero-image">
                 <img src={coverImage} alt="clothing"/>
             </div>
         </div>
     )
 }
 
-// https:"//source.unsplash.com/random/?fashion"
+

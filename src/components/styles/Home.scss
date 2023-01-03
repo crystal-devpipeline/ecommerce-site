@@ -1,5 +1,40 @@
-.home-container{
+// .home-container{
+ //  display: flex;
+ //  height: 500px;
+ //  background-color: whitesmoke;
+ img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 550px;
+  width: 100%;
+  align-items: center;
+  background-size: 100%;
+ }
+//   .header {
+//    display: flex;
+//    height: 100px;
+//    width: 100%;
+   
+//    h1 {
+//     display: block;
+//     margin-left: auto;
+//     margin-right: auto;
+//    }
+//  }
+ 
+// }
+
+// .logo {
+//  display: flex;
+//  height: 100px;
+//  width: 100%;
+
+// }
+// h2 {
+//  display: block;
+//  margin-left: auto;
+//  margin-right: auto;
+// }
 
 
- background-color: red;
-}

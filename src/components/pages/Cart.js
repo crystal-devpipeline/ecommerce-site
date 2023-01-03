@@ -3,8 +3,9 @@ import { CartContext } from "../../context/CartProvider"
 
 import CartItem from "../CartItem";
 
-export default function Cart({children}) {
+export default function Cart() {
     const { cart } = useContext(CartContext)
+    const { clearCart } = useContext(CartContext)
 
     function renderTotal() {
         if (cart.length > 0) {
@@ -25,8 +26,11 @@ export default function Cart({children}) {
           <h1>Your Cart</h1>
           <div>{renderCart()}</div>
           <div>
-            Total: ${renderTotal() || "0.00"}
+            <h2>Total: ${renderTotal() || "0.00"}</h2>
           </div>
+          <button onClick={clearCart}>
+            Clear 
+          </button>
         </div>
       );
 }

@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 
-//TODO: add rating?
-
 export default function Product(props) {
   const [product, setProduct] = useState({})
 
